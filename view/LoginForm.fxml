@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="643.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+   <children>
+      <ImageView fitHeight="380.0" fitWidth="661.0" layoutX="-15.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/pngtree-cute-hand-drawn-style-mathematics-education-green-stripes-background-image_337567.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="280.0" layoutY="29.0" text="Simple Maths Quiz" textFill="#9e5555">
+         <font>
+            <Font name="Serif Bold" size="25.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtName" labelFloat="true" layoutX="248.0" layoutY="99.0" onKeyPressed="#txtNameEnter" prefHeight="31.0" prefWidth="270.0" promptText="Enter your name :" />
+      <JFXButton fx:id="btnPlay" layoutX="408.0" layoutY="159.0" onAction="#onAction_btnPlay" prefHeight="31.0" prefWidth="103.0" style="-fx-background-color: #42b1dd;" text="Play" textFill="WHITE">
+         <font>
+            <Font name="Serif Regular" size="16.0" />
+         </font>
+      </JFXButton>
+      <Separator layoutX="206.0" layoutY="65.0" prefHeight="3.0" prefWidth="346.0" style="-fx-background-color: black;" />
+      <Label layoutX="264.0" layoutY="266.0" text="copyright © Shehan Dilusanka 2021" textFill="#432020" />
+   </children>
+</AnchorPane>

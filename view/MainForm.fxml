@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="300.0" prefWidth="643.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainFormController">
+    <children>
+        <ImageView fitHeight="316.0" fitWidth="656.0" layoutX="-6.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/pngtree-cute-hand-drawn-style-mathematics-education-green-stripes-background-image_337567.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="315.0" layoutY="31.0" text="Main Form" textFill="#9e5555">
+            <font>
+                <Font name="Serif Bold" size="25.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="btnNewGame" layoutX="290.0" layoutY="116.0" onAction="#onAction_btnNewGame" prefHeight="31.0" prefWidth="177.0" style="-fx-background-color: #3f37dd;" text="New Game" textFill="WHITE">
+            <font>
+                <Font name="Serif Regular" size="16.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="btnCheckScore" layoutX="289.0" layoutY="163.0" onAction="#onAction_btnCheckScore" prefHeight="31.0" prefWidth="177.0" style="-fx-background-color: #3f37dd;" text="Check Score" textFill="WHITE">
+            <font>
+                <Font name="Serif Regular" size="16.0" />
+            </font>
+        </JFXButton>
+        <Separator layoutX="206.0" layoutY="67.0" prefHeight="3.0" prefWidth="346.0" style="-fx-background-color: black;" />
+        <Label layoutX="274.0" layoutY="271.0" text="copyright © Shehan Dilusanka 2021" textFill="#432020" />
+    </children>
+</AnchorPane>

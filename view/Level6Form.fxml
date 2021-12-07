@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="638.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Level6FormController">
+    <children>
+        <Label layoutX="113.0" layoutY="105.0" text="Simple Maths Quiz" textFill="#9e5555">
+            <font>
+                <Font name="Serif Bold" size="25.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="285.0" fitWidth="415.0" layoutX="5.0" layoutY="371.0" opacity="0.46" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../asset/back-to-school-paper-art-background-notebook-pencil-ruler-other-supplies-modern-origami-teaching-education-learning-118198355.png" />
+            </image>
+        </ImageView>
+        <Label layoutX="287.0" layoutY="64.0" text="Score :" textFill="#3b949a">
+            <font>
+                <Font name="Serif Bold" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="score" layoutX="352.0" layoutY="66.0" text="50" textFill="#3b949a">
+            <font>
+                <Font name="Serif Bold" size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="288.0" layoutY="38.0" text="Level :" textFill="#3b949a">
+            <font>
+                <Font name="Serif Bold" size="19.0" />
+            </font>
+        </Label>
+        <Label fx:id="level" layoutX="352.0" layoutY="39.0" text="06" textFill="#3b949a">
+            <font>
+                <Font name="Serif Bold" size="19.0" />
+            </font>
+        </Label>
+        <Separator layoutX="29.0" layoutY="145.0" prefHeight="3.0" prefWidth="364.0" style="-fx-background-color: black;" />
+        <JFXButton fx:id="btnBack" layoutX="36.0" layoutY="40.0" onAction="#onAction_btnBack" prefHeight="31.0" prefWidth="107.0" style="-fx-background-color: #b18b8b;" text="Back" textFill="WHITE">
+            <font>
+                <Font name="Serif Regular" size="16.0" />
+            </font>
+        </JFXButton>
+        <Separator layoutX="28.0" layoutY="620.0" prefHeight="3.0" prefWidth="364.0" style="-fx-background-color: black;" />
+        <Label layoutX="86.0" layoutY="624.0" text="Copyright © Shehan Dilusanka 2021" textFill="#432020">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="118.0" layoutY="182.0" text="Find the &quot;x&quot;value">
+            <font>
+                <Font name="Serif Bold" size="20.0" />
+            </font>
+        </Label>
+        <JFXButton fx:id="btnNum1" layoutX="111.0" layoutY="382.0" onAction="#onAction_btnNum1" prefHeight="60.0" prefWidth="74.0" style="-fx-background-color: #8968b7;" text="20" textFill="WHITE">
+            <font>
+                <Font name="Serif Bold" size="24.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="btnNum2" layoutX="214.0" layoutY="382.0" onAction="#onAction_btnNum2" prefHeight="60.0" prefWidth="74.0" style="-fx-background-color: #8968b7;" text="09" textFill="WHITE">
+            <font>
+                <Font name="Serif Bold" size="24.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="btnNum3" layoutX="111.0" layoutY="472.0" onAction="#onAcrtion_btnNum3" prefHeight="60.0" prefWidth="74.0" style="-fx-background-color: #8968b7;" text="18" textFill="WHITE">
+            <font>
+                <Font name="Serif Bold" size="24.0" />
+            </font>
+        </JFXButton>
+        <JFXButton fx:id="btnNum4" layoutX="215.0" layoutY="472.0" onAction="#onAction_btnNum4" prefHeight="60.0" prefWidth="74.0" style="-fx-background-color: #8968b7;" text="22" textFill="WHITE">
+            <font>
+                <Font name="Serif Bold" size="24.0" />
+            </font>
+        </JFXButton>
+        <Label fx:id="num1" layoutX="55.0" layoutY="267.0" prefHeight="45.0" prefWidth="42.0" text="05" textFill="#17878d">
+            <font>
+                <Font name="Serif Bold" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="128.0" layoutY="267.0" prefHeight="45.0" prefWidth="42.0" text="×" textFill="#17878d">
+            <font>
+                <Font name="Serif Bold" size="40.0" />
+            </font>
+        </Label>
+        <Label fx:id="num2" layoutX="185.0" layoutY="266.0" prefHeight="45.0" prefWidth="42.0" text="04" textFill="#17878d">
+            <font>
+                <Font name="Serif Bold" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="258.0" layoutY="266.0" prefHeight="45.0" prefWidth="42.0" text="=" textFill="#17878d">
+            <font>
+                <Font name="Serif Bold" size="40.0" />
+            </font>
+        </Label>
+        <Label layoutX="321.0" layoutY="261.0" prefHeight="45.0" prefWidth="42.0" text="x" textFill="#17878d">
+            <font>
+                <Font name="Serif Bold" size="40.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
